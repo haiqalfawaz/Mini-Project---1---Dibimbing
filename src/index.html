@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Basement Coffee!</title>
+
+    <!-- CSS Output-->
+    <link rel="stylesheet" href="output.css">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- Section 1 -->
+    <div
+        class="relative w-full min-h-screen lg:bg-[url('asset/Background/Background.png')] bg-center bg-cover px-5 sm:px-3 py-5 sm:py-3 sm:bg-[url('asset/Background/Background-Tablet.png')] xs:bg-[url('asset/Background/Background-Mobile.png')] md:bg-[url('asset/Background/Background-Tablet.png')]">
+        <!-- Naviagation Bar -->
+        <nav class="flex items-center justify-between w-full sm:justify-between">
+            <img src="asset/Logo/Logo.png" alt="Logo" class="max-w-full mx-auto cursor-pointer w-36 sm:mx-0">
+            <div class="items-center hidden gap-5 font-montserrat sm:flex">
+                <div class="p-3 duration-300 rounded-md hover:bg-anastasia-1 h-fit group">
+                    <a href="#" class="text-white list-none group-hover:text-black">Home</a>
+                </div>
+                <div class="p-3 duration-300 rounded-md hover:bg-anastasia-1 h-fit group">
+                    <a href="#section-2" class="text-white list-none group-hover:text-black">About Us</a>
+                </div>
+                <div class="p-3 duration-300 rounded-md hover:bg-anastasia-1 h-fit group">
+                    <a href="#section-4" class="text-white list-none group-hover:text-black">Visit</a>
+                </div>
+                <div class="p-3 duration-300 rounded-md hover:bg-anastasia-1 h-fit group">
+                    <a href="product.html" class="text-white list-none group-hover:text-black">Products</a>
+                </div>
+            </div>
+
+
+            <div class="sm:hidden" id="ham-menu">
+                <a href=""><i class='text-4xl text-white bx bx-menu'></i></a>
+            </div>
+
+        </nav>
+
+        <!-- Content Bottom -->
+        <div class="absolute bottom-0 left-0 right-0 flex items-end justify-between p-3">
+            <div class="h-auto gap-3 p-0 text-black w-fit">
+                <div class="h-auto p-2 mt-0 text-center rounded-lg lg:w-60 bg-anastasia-1 sm:w-40 xs:w-36">
+                    <p
+                        class="font-extrabold lg:text-xl md:text-sm sm:text-sm xs:text-sm md:font-bold sm:font-semibold xs:font-semibold font-oswald">
+                        Mon-Fri : 9 AM - 10 PM
+                    </p>
+                </div>
+                <div class="h-auto p-2 mt-2 text-center rounded-lg lg:w-60 bg-anastasia-1 sm:w-40 xs:w-36">
+                    <p
+                        class="font-extrabold lg:text-xl md:text-sm sm:text-sm xs:text-sm md:font-bold sm:font-semibold xs:font-semibold font-oswald">
+                        Sat-Sun : 9 AM - 12 AM
+                    </p>
+                </div>
+            </div>
+            <div class="h-auto p-1 text-center text-black rounded-lg bg-anastasia-1 w-60 sm:w-40 xs:w-32">
+                <h4 class="text-xl font-bold font-oswald">Basement Coffee</h4>
+                <p class="mt-2 tracking-tight lg:text-base sm:text-sm font-inter">Gather around, let the warmth of
+                    coffee bring us closer.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 2 -->
+    <div class="w-full p-6 bg-yellow-400" id="section-2">
+
+        <!-- Section 2 About -->
+        <div class="py-8">
+            <div class="p-4 bg-black border-2 border-black rounded-lg text-anastasia-1">
+                <h1 class="text-6xl font-extrabold text-center xs:text-5xl font-montserrat">You Should Come To <br>
+                    Basement Coffee!
+                </h1>
+                <p class="mt-10 tracking-wide text-center lg:text-lg md:text-sm xs:text-sm font-inter">At Basement
+                    Coffee,
+                    we believe
+                    that coffee
+                    is not
+                    just a
+                    drink, but a
+                    journey.
+                    A
+                    journey that begins
+                    with the careful selection of the finest beans, sourced from the world's most revered coffee-growing
+                    regions. With every pour, our skilled baristas craft each cup with precision, passion, and a touch
+                    of
+                    artistry, ensuring that each sip takes you to a place of warmth and wonder. It's not just about the
+                    flavor—it's about the feeling, the connection, the story that unfolds with every cup.
+                    <br>
+                    <br>
+                    More than a coffee shop, we are a sanctuary for moments, a haven for conversations, a space where
+                    creativity can bloom and time slows down. Whether you're here to catch up with old friends, dive
+                    into
+                    your next big idea, or simply enjoy a quiet pause, Basement Coffee is a place where every visit
+                    becomes a memory, and every sip tells a story. Come, and let the aroma of freshly brewed coffee
+                    invite
+                    you to experience more than just a drink—experience the art of living, one cup at a time.
+                </p>
+            </div>
+        </div>
+
+        <!-- Section 2 - Poster -->
+        <div class="flex flex-wrap items-center justify-center gap-4">
+            <!-- Poster 1 -->
+            <div
+                class="p-2 overflow-hidden transition-transform duration-300 bg-black rounded-lg shadow-lg hover:scale-105">
+                <img src="asset/Poster 1.png" alt=""
+                    class="object-cover lg:w-96 lg:h-96 md:w-80 md:h-80 sm:w-48 sm:h-48">
+            </div>
+
+            <!-- Poster 2 -->
+            <div
+                class="p-2 overflow-hidden transition-transform duration-300 bg-black rounded-lg shadow-lg hover:scale-105">
+                <img src="asset/Poster 2.png" alt=""
+                    class="object-cover lg:w-96 lg:h-96 md:w-80 md:h-80 sm:w-48 sm:h-48">
+            </div>
+
+            <!-- Poster 3 -->
+            <div
+                class="p-2 overflow-hidden transition-transform duration-300 bg-black rounded-lg shadow-lg hover:scale-105">
+                <img src="asset/Poster 3.png" alt=""
+                    class="object-cover lg:w-96 lg:h-96 md:w-80 md:h-80 sm:w-48 sm:h-48">
+            </div>
+
+            <!-- Poster 4 -->
+            <div
+                class="p-2 overflow-hidden transition-transform duration-300 bg-black rounded-lg shadow-lg hover:scale-105">
+                <img src="asset/Poster 4.png" alt=""
+                    class="object-cover lg:w-96 lg:h-96 md:w-80 md:h-80 sm:w-48 sm:h-48">
+            </div>
+
+            <!-- Poster 5 -->
+            <div
+                class="p-2 overflow-hidden transition-transform duration-300 bg-black rounded-lg shadow-lg hover:scale-105">
+                <img src="asset/Poster 5.png" alt=""
+                    class="object-cover lg:w-96 lg:h-96 md:w-80 md:h-80 sm:w-48 sm:h-48">
+            </div>
+
+            <!-- Poster 6 -->
+            <div
+                class="p-2 overflow-hidden transition-transform duration-300 bg-black rounded-lg shadow-lg hover:scale-105">
+                <img src="asset/Poster 6.png" alt=""
+                    class="object-cover lg:w-96 lg:h-96 md:w-80 md:h-80 sm:w-48 sm:h-48">
+            </div>
+        </div>
+    </div>
+
+
+    <!--  Section 3 - Products that we serve -->
+    <div class="w-full p-10 bg-black">
+
+        <!-- Header Menu -->
+        <div class="w-full p-4 text-anastasia-1">
+            <h1 class="text-6xl font-extrabold text-center xs:text-5xl font-montserrat">What We Serve In Here?</h1>
+            <p class="mt-8 tracking-wide text-center font-inter lg:text-lg md:text-sm xs:text-sm">Choose the rich
+                embrace of coffee, or let your senses
+                wander to flavors that delight the soul. <br> From sweet to savory, our menu offers a feast for every
+                craving, whether in a cup or on a plate.</p>
+        </div>
+
+        <div class="w-full p-4 mt-4 rounded-lg bg-anastasia-1">
+
+            <!-- Our Product -->
+            <div class="flex items-center justify-center p-4">
+                <h3 class="text-2xl font-bold tracking-wide text-black font-montserrat">Our Products!</h3>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-center gap-5 text-black">
+                <!-- Card Our Products -->
+                <div
+                    class="p-2 overflow-hidden transition-transform duration-300 bg-black rounded-lg shadow-lg hover:scale-105">
+                    <img src="asset/Menu/Brews-and-Sips.png." alt="Brew-and-Sip">
+                    <p class="p-2 text-center text-anastasia-1">Whether you crave the rich embrace of a brew or the cool
+                        comfort <br> of a
+                        sip, our
+                        Brews &
+                        Sips
+                        are here to refresh, renew, and inspire.</p>
+                </div>
+                <div
+                    class="p-2 overflow-hidden transition-transform duration-300 bg-black rounded-lg shadow-lg hover:scale-105">
+                    <img src="asset/Menu/Eats-and-Treats.png" alt="Eats-and-Treats">
+                    <p class="p-2 text-center text-anastasia-1">From the first savory nibble to the last sweet bite,
+                        discover <br> the magic of Eats & Treats—a
+                        little pleasure in every mouthful.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flex flex-col items-center justify-center pt-6 text-anastasia-1 xl:flex-row">
+            <h2 class="text-3xl font-extrabold text-center xs:text-2xl font-montserrat">Explore our complete catalog at
+                your
+                fingertips—one simple touch, and the world of our products is yours to discover
+            </h2>
+            <div
+                class="flex items-center justify-center w-full h-20 m-4 transition-transform duration-300 rounded-lg cursor-pointer sm:w-64 md:w-80 lg:w-96 bg-anastasia-1 group hover:scale-105">
+                <a href="product.html"
+                    class="flex items-center text-xl font-extrabold tracking-wider text-black font-oswald">To
+                    Product<i class='ml-3 text-5xl bx bxs-right-arrow-circle bx-tada bx-flip-horizontal'></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Section 4 - Visit -->
+    <div id="section-4" class="relative w-full p-6 bg-anastasia-1">
+        <div class="w-full p-6 text-black">
+            <h1 class="text-6xl font-extrabold text-center xs:text-5xl font-montserrat">Feel free to visit our store!
+            </h1>
+        </div>
+        <div class="flex flex-col items-center justify-center w-full gap-6 p-6 xl:flex-row">
+            <div
+                class="p-2 overflow-hidden transition-transform duration-300 bg-black rounded-lg shadow-lg hover:scale-105">
+                <img src="asset/Maps-footer.png" alt=""
+                    class="object-cover lg:w-96 lg:h-96 md:w-80 md:h-80 sm:w-48 sm:h-48">
+            </div>
+            <div class="p-4 border-4 border-black rounded-lg bg-anastasia-1">
+                <h3 class="my-5 font-bold tracking-wide text-center text-black lg:text-lg sm:text-sm font-montserrat">
+                    Wander in, where every corner whispers a welcome, and the air <br> is filled with flavors and
+                    moments waiting
+                    to be savored—feel free to visit and let your senses roam.
+                </h3>
+                <h3
+                    class="my-5 font-extrabold tracking-wide text-center text-black underline lg:text-lg sm:text-sm font-montserrat">
+                    Jl. Lorem Ipsum No.123, Bandung, Indonesia.
+                </h3>
+                <div class="flex items-center justify-center gap-5 p-4 mx-auto mt-5 bg-black rounded-lg w-fit h-fit">
+                    <!-- Icon Instagram -->
+                    <div class="p-3 rounded-full bg-anastasia-1">
+                        <a href=""><i class='text-4xl bx bxl-instagram-alt'></i></a>
+                    </div>
+                    <!-- Icon Twitter -->
+                    <div class="p-3 rounded-full bg-anastasia-1">
+                        <a href=""><i class='text-4xl bx bxl-twitter'></i></a>
+                    </div>
+                    <!-- Icon Facebook -->
+                    <div class="p-3 rounded-full bg-anastasia-1">
+                        <a href=""><i class='text-4xl bx bxl-facebook'></i></a>
+                    </div>
+                </div>
+                <h3 class="my-5 font-bold tracking-wide text-center text-black lg:text-lg sm:text-sm font-montserrat">
+                    Connect with us through the whispers of social media!
+                </h3>
+            </div>
+        </div>
+        <div class="absolute bottom-0 right-0 z-10">
+            <img src="asset/monalisa.png" alt="" class="object-cover h-auto lg:w-96 xs:w-44 sm:w-56 md:w-80 ">
+        </div>
+    </div>
+
+    <!-- Section 5 -Footer  -->
+    <div
+        class="flex items-center justify-between w-full px-4 pt-4 pb-2 bg-black lg:flex-row md:flex-row sm:flex-col xs:flex-col">
+        <div class="p-2">
+            <img src="asset/Logo/Logo-2.png" alt="Logo-2" class="w-56 max-w-full cursor-pointer">
+        </div>
+        <div>
+            <p class="text-xl font-semibold xs:text-center sm:text-lg xs:text-base text-anastasia-1 font-montserrat">©
+                2024 Basement
+                Coffee. All Rights
+                Reserved.</p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
